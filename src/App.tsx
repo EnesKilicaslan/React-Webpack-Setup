@@ -1,7 +1,7 @@
-import "./styles.css";
-import IMAGE from "./react.png";
-import SVG from "./square.svg";
-import { ClickCounter } from "./ClickCounter";
+import './styles.css'
+import IMAGE from './react.png'
+import SVG from './square.svg'
+import { ClickCounter } from './ClickCounter'
 
 export const App = () => {
   return (
@@ -15,5 +15,5 @@ export const App = () => {
 
       <ClickCounter />
     </>
-  );
-};
+  )
+}
