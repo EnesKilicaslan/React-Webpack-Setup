@@ -10,7 +10,7 @@ export const App = () => {
         React dProject Setup {process.env.NODE_ENV} {process.env.porting}
       </h1>
 
-      <img src={IMAGE} height={300} width={300} />
+      <img src={IMAGE} height={300} width={300} alt="React" />
       <img src={SVG} alt="svg" />
 
       <ClickCounter />
